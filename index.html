@@ -4,9 +4,290 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+    <!--- BOOTSTRAP STYLE-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- STYLE LINK -->
+    <link  rel="stylesheet" href="./css/index.css">
+
+
+    <title> STAN </title>
+    </head>
 <body>
+    <!-- NAVBAR SECCION -->
+    <nav class="navbar navbar-expand-md navbar-light p-0">
+            <img  src="./public/img/STAN.jpg" id="logoStan" >  
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="background-color: #fff;" ></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> QUIENES SOMOS  <span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#"> NUESTROS CLIENTES </a>
+                    </li> -->
+                    <li class="nav-item" style="align-self: center;">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"  > CONTÁCTENOS </a>
+                    </li>
+                    <li class="nav-item" style="align-self: center;">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true" > COTIZACIONES </a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> NUESTRA TECNOLOGÍA </a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- SLIDER SECCION -->
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-2" data-slide-to="1"></li>
+          <li data-target="#carousel-example-2" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <div class="view">
+              <img class="d-block w-100" src="./public/img/presion.png"
+                alt="First slide">
+              <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Light mask</h3>
+              <p>First text</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="./public/img/sensor.png"
+                alt="Second slide">
+              <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Strong mask</h3>
+              <p>Secondary text</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+              <img class="d-block w-100" src="./public/img/tuberia.png"
+                alt="Third slide">
+              <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+              <h3 class="h3-responsive">Slight mask</h3>
+              <p>Third text</p>
+            </div>
+          </div>
+        </div>
+        <!--/.Slides-->
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+    <!--  NUEVOS PRODUCTOS SECCION -->
+    <div class="container-fluid nuevo-produc">
+            <div class="row">
+                <div class="col-12 colproduc">
+                    <p class="parrafo9" >
+                        Nuevos productos
+                    <br> </p>
+                    <p class="parrafo10">
+                        Descubre nuestra gama de productos con los que
+                    <br></p>
+                    <p class="parrafo11">
+                        puesdes hacer increíbles y únicos slimes
+                    </p> <br> <br>
+                </div>
+            </div>    
+            <div class="row rowproduc">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                            <div class="card-header">  Glow in the dark </div>
+                        <img src="./public/img/STAN.jpg" class="imgcard">
+                        <div class="card-body">
+                            <p class="card-text"> No pares de jugar en las noches </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header">  Purple glitter </div>
+                        <img src="./public/img/STAN.jpg" class="imgcard">
+                        <div class="card-body">
+                            <p class="card-text"> Para darle un toque cósmico a tu slime </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-header">  Glitter multi </div>
+                        <img src="./public/img/STAN.jpg" class="imgcard">
+                        <div class="card-body">
+                            <p class="card-text"> Crea galaxias de diversión con tus slimes </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </div>    
+   
+
+    <!-- CARD FLIP  -->
+    <div class="container-fluid" style="background: #194F74;">
+        <div class="row rowcards">
+            <div class="col-md-4 col-12 rescard">
+                <h1 style="display:contents;">Card Flip with Text</h1><br>
+                <h3 style="display:contents;" >Hover over the image below:</h3><br>
+                
+                <div class="flip-card ">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="./public/img/STAN.jpg" alt="Avatar" style="width:250px;height:250px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1> 
+                        <p>Architect & Engineer</p> 
+                        <p>We love that guy</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-12 rescard">
+                <h1 style="display:contents;">Card Flip with Text</h1><br>
+                <h3 style="display:contents;" >Hover over the image below:</h3><br>
+
+                    <div class="flip-card ">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="./public/img/STAN.jpg" alt="Avatar" style="width:250px;height:250px;">
+                            </div>
+                            <div class="flip-card-back">
+                                <h1>John Doe</h1> 
+                                <p>Architect & Engineer</p> 
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+            </div> 
+
+            <div class="col-md-4 col-12 rescard">
+                    <h1 style="display:contents;">Card Flip with Text</h1><br>
+                    <h3 style="display:contents;" >Hover over the image below:</h3><br>
     
+                        <div class="flip-card ">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="./public/img/STAN.jpg" alt="Avatar" style="width:250px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <h1>John Doe</h1> 
+                                    <p>Architect & Engineer</p> 
+                                    <p>We love that guy</p>
+                                </div>
+                            </div>
+                        </div>
+            </div> 
+
+        </div>
+    </div>
+    
+
+
+
+
+   <!-- FOOTER SECTION --> 
+  
+		<footer class="footer-distributed">
+ 
+		<div class="footer-left">
+ 
+		<h3>WebDev<span>Trick</span></h3>
+ 
+		<p class="footer-links">
+		<a href="#">Home</a>
+	·
+		<a href="#">Blog</a>
+	·
+		<a href="#">Pricing</a>
+	·
+		<a href="#">About</a>
+	·
+		<a href="#">Faq</a>
+	·
+		<a href="#">Contact</a>
+		</p>
+ 
+		<p class="footer-company-name">webdevtrick &copy; 2019</p>
+		</div>
+ 
+		<div class="footer-center">
+ 
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>21 Revolution Street</span> Delhi, India</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>+1 555 123456</p>
+		</div>
+ 
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:support@company.com">contact@webdevtrick.com</a></p>
+		</div>
+ 
+		</div>
+ 
+		<div class="footer-right">
+ 
+		<p class="footer-company-about">
+		<span>About the company</span>
+	Web Dev Trick is a blog for web designers, graphic designers, web developers &amp; SEO Learner.
+		</p>
+ 
+		<div class="footer-icons">
+ 
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-github"></i></a>
+ 
+		</div>
+ 
+		</div>
+ 
+		</footer>
+ 
+    
+
+
+    <!-- BOOTSTRAP CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/index.js"> </script>
+
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "sitan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlechuga/SITAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlechuga/SITAN/issues"
+  },
+  "homepage": "https://github.com/davidlechuga/SITAN#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

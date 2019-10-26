@@ -1,0 +1,5 @@
+applications:
+- name: Sitan
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 56M
+  random-route: true
